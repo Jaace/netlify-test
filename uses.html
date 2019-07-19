@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jaace - Uses</title>
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
+    ></script>
+  </head>
+  <body>
+    <zero-md
+      src="https://raw.githubusercontent.com/Jaace/uses/master/README.md"
+    ></zero-md>
+    <script>
+      window.addEventListener("zero-md-rendered", function() {
+        console.log("rendered!");
+        const li = document.querySelectorAll("li");
+        console.log(li);
+      });
+    </script>
+  </body>
+</html>
