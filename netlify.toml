@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "*.md"
-  to = "*.html"
-  status = 200
-  force = true
